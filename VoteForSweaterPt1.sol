@@ -1,6 +1,6 @@
 pragma solidity 0.4.25;
 
-contract VoteForSweater {
+contract VoteForSweaterPt1 {
 
   mapping(string => uint) sweaterMap;
 

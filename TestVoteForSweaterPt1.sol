@@ -1,8 +1,8 @@
 pragma solidity 0.4.25;
 
-import "./VoteForSweater.sol";
+import "./VoteForSweaterPt1.sol";
 
-contract TestVoteForSweater is VoteForSweater {
+contract TestVoteForSweaterPt1 is VoteForSweaterPt1 {
 
   function test_sweaterVote() {
     uint blueVotes = getVotes("blue");
